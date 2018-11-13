@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Turnerschaft Gotia Zaringia</title>
+		<title>Turnerschaft Gotia-Zaringia</title>
 		<link rel="icon" href="media/img/Zirkel.png">
 		
 		<!-- jQuery -->
@@ -28,6 +28,21 @@
 		<!-- Create it with slider online build tool for better performance. -->
 		<script src="royalslider/jquery.royalslider.min.js"></script>
 		
+		<!-- Photoswipe Core CSS file -->
+		<link rel="stylesheet" href="css/photoswipe.css"> 
+
+		<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+			 In the folder of skin CSS file there are also:
+			 - .png and .svg icons sprite, 
+			 - preloader.gif (for browsers that do not support CSS animations) -->
+		<link rel="stylesheet" href="css/default-skin/default-skin.css"> 
+
+		<!-- Core JS file -->
+		<script src="js/photoswipe.min.js"></script> 
+
+		<!-- UI JS file -->
+		<script src="js/photoswipe-ui-default.min.js"></script> 
+		
 		<!-- Google Maps >
 		<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script--> 
 	</head>
@@ -46,7 +61,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<div><a class="navbar-brand" href="index.html">T! GOTIA ZARINGIA</a></div>
+						<div><a class="navbar-brand" href="index.html">T! GOTIA-ZARINGIA</a></div>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -106,9 +121,8 @@
 				</div>
 			</div>
 			<div class="container">
-			  <h2>Vorstellung</h2>
-			  <p class="lead justified">To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
-
+			  <h2>Wir</h2>
+			  
 			  <ul class="nav nav-tabs" style="text-align: center">
 				<li class="active"><a data-toggle="tab" href="#W1">Wer wer sind</a></li>
 				<li><a data-toggle="tab" href="#W2">Was wir bieten</a></li>
@@ -117,55 +131,100 @@
 
 			  <div class="tab-content">
 				<div id="W1" class="tab-pane fade in active">
-				  <h3>Wer wer sind</h3>
-				  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				
+					<img class="profilbild" src="media/img/aktivitas.jpg"/>
+				<h3>Wir...</h3>
+				 <p class="lead">
+					<ul>
+						<li>sind eine Studentenverbindung, eine Vereinigung von Absolventen und aktiven Studenten der Hochschulen in Karlsruhe</li>
+						<li>wurden vor über 120 Jahren gegründet</li>
+						<li>haben über 90 aktive Mitglieder</li>
+						<li>sind Mitglied im Dachverband Coburger Convent mit über 13.000 Mitgliedern</li>
+						<li>haben Mitglieder aus vielen Ländern der Welt</li>
+						<li>sind mit zwei Partien pflichtschlagend</li>
+					</ul>
+				  </p>
 				</div>
 				<div id="W2" class="tab-pane fade">
-				  <h3>Was wir bieten</h3>
-				  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				  <h3>Was wir bieten dir...</h3>
+				  <p class="lead">
+				<ol>
+					<li style="font-weight: bold;">die Möglichkeit, in unserem <a href="http://www.studentenzimmer-in-karlsruhe.de/">Wohnheim</a> zu wohnen:</li>
+						<ul>
+							<li>kostengünstig, inkl. aller Nebenkosten</li>
+							<li>voll ausgestattetes Zimmer (möbliert, Internetanschluss)</li>
+							<li>zentral bzw. uninah gelegen</li>
+							<li>mit schönen Gemeinschaftsräumen<br>(Küche, Esszimmer, Fernsehzimmer, Barbereich, Veranstaltungsraum, Lernraum, etc.)</li>
+						</ul>
+						<br>
+					<li style="font-weight: bold;">Erfahrung und Wissen der älteren Kommilitonen und Alten Herren</li>
+						<br>
+					<li style="font-weight: bold;">lebenslangen Zugang zu einem Netzwerk von über 85 Akademikern:</li>
+						<ul>
+							<li>fortlaufende Studienunterstützung und -beratung</li>
+							<li>Vermittlung von Praktika im In- und Ausland</li>
+							<li>Tipps und Unterstützung bei Berufseinstieg, Bewerbung und Berufswahl</li>
+							<li>Unterstützung bei der wissenschaftlichen Laufbahn</li>
+							<li>Beratung und Hilfe (auch außerhalb des Studiums) zu geben und auch in Anspruch zu nehmen</li>
+							<li>Kontakte zu Mitgliedern aller Fachrichtungen zu knüpfen</li>
+						</ul>
+						<br>
+					<li style="font-weight: bold;">Entwicklung und Verbesserung Deiner soft skills (soziale Kompetenzen), die an der Uni nicht bzw. nur unzureichend vermittelt werden:</li>
+						<ul>
+							<li>Verantwortung übernehmen</li>
+							<li>Diskussionsleitung</li>
+							<li>Gestaltung von Meinungsbildungsprozessen</li>
+							<li>Organisation von Veranstaltungen</li>
+							<li>Erlernen des Managements bzw. der Führung von Gruppen(Entwicklung von Führungskompetenz)</li>
+							<li>Coaching bzw. Mentoring von neuen Mitgliedern</li>
+							<li>Schulung Deiner Rhetorik und Diskussionsführung</li>
+							<li>Verbesserung Deiner Arbeitszeit- und Selbstorganisation, bzw. Deines Zeitmanagements</li>
+						</ul>
+						<br>
+					<li style="font-weight: bold;">Generationenübergreifender Austausch, wie er in dieser Form heute nur noch selten stattfindet</li>
+						<br>
+					<li style="font-weight: bold;">Förderung von sportlichen Interessen</li>
+						<ul>
+						<li>Gemeinsame Sportveranstaltungen</li>
+						<li>Regelmäßigen Unterricht bei unserem Fechtmeister</li>
+						</ul>
+						<br>
+					<li style="font-weight: bold;">Veranstaltungen, die Dich weiterbringen:</li>
+						<ul>
+						<li>Vorträge zu aktuellen Themen aus Wirtschaft, Politik und Gesellschaft</li>
+						<li>Seminare und Workshops, die Deine soft skills verbessern (z.B. Rhetorik- und Persönlichkeitstrainings)</li>
+						</ul>
+						<br>
+					<li style="font-weight: bold;">durch unseren Dachverband, den Coburger Convent:</li>
+						<ul>
+						<li style="font-weight: bold;">Zugang zu einem weltweiten Netzwerk von ca. 11.500 Akademikern</li>
+							<ul>
+							<li>Möglichkeit, bei Job- und/oder Uniwechsel schnell in einer neuen Stadt Fuß zu fassen bzw. neue Kontakte zu knüpfen</li>
+							<li>Möglichkeit, bei Job- und/oder Uniwechsel schnell und unkompliziert vor Ort (vorübergehend) eine Bleibe zu finden</li>
+							</ul>
+						<li>Interessante Gespräche und viel Spaß durch den Austausch mit anderen Verbindungen in Karlsruhe und ganz Deutschland</li>
+						</ul>
+				</ol>
+				Wenn wir Dein Interesse geweckt haben, kannst Du gerne unverbindlich Kontakt zu uns aufnehmen. 
+				</p>
 				</div>
 				<div id="W3" class="tab-pane fade">
-				  <h3>Wen wir suchen</h3>
-				  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+					<h3>Wen wir suchen</h3>
+					<div class="row featurette">
+						<div class="col-md-1"> </div>
+						<p class="col-md-10 lead">Jeder, an einer der Karlsruher Hochschulen ordentlich eingeschriebene, männliche Student kann bei uns Mitglied werden. Es besteht keine Einschränkung hinsichtlich Herkunft oder Nationalität. Auch Studierende, die aus dem Ausland zum Studium nach Karlsruhe gekommen sind, sind bei uns herzlich willkommen, sofern ein gutes Grundverständnis der deutschen oder gute Kenntnisse der englischen Sprache vorhanden sind. Ein ausreichendes Interesse, Deutsch zu lernen, sowie an studentischer Kultur sollte aber in jedem Fall bestehen.
+							<br><br>
+							Für unsere Mitglieder besteht weder eine politische noch konfessionelle Bindung. Da unser Verständnis von Gemeinschaft aber auf evolutionärer Entwicklung der Gesellschaft und demokratischer Partizipation beruht, sind Extreme, ob politisch rechts, links oder religiös, bei uns nicht erwünscht. Wir geben unser Bestes, um angehende Mitglieder nicht nach Kleinigkeiten in Auftreten und Verhalten, nach ihrer Herkunft oder ihren sprachlichen Fähigkeiten auszuwählen. Vielmehr suchen wir bei unseren Bewerbern nach einer vernünftigen Grundhaltung gegenüber dem Studium und dem menschlichen Zusammenleben. Unter diesem Leitbild haben wir auf unserem Haus derzeit Persönlichkeiten aus ganz Deutschland versammelt: von Emden an der Nordseeküste bis Freiburg im sonnigen Süden, über Bayern, Baden-Württemberg, Hessen und die neuen Bundesländer erstreckt sich die Heimat unserer Hausbewohner. Sie alle haben hier in Karlsruhe nicht nur eine Wohnung, sondern ein zweites Zuhause gefunden.
+							<br><br>
+							Von jeher verstehen sich die Studentenverbindungen als starke Gemeinschaften hochanständiger und motivierter junger Menschen - von einigen schwarzen Schafen abgesehen. Ein jedes unserer Mitglieder sollte gewillt sein, in sich die Eigenschaften Ehrlichkeit, Worttreue, Bescheidenheit, Arbeitsamkeit und Güte zu suchen. Als angehende Akademiker tragen wir zukünftig Verantwortung in unseren Unternehmen und für die Menschen in unserer Umgebung. Nur wenn wir lernen, nach bestem Wissen und Gewissen Entscheidungen zu treffen und unsere Überzeugungen unter Opferbereitschaft zu vertreten, können wir einen Beitrag für eine friedliche Gesellschaft leisten.
+							<br><br>
+							Gleichzeitig versteht sich keines unserer Mitglieder als „moralisch vollkommen“. Vielmehr leben wir im täglichen Spannungsfeld zwischen persönlichem Interesse, Verantwortungsbewusstsein gegenüber der Gesellschaft, der Vorsorge für die Zukunft und den Bedürfnissen unserer Nächsten. Wir wollen uns dessen stets bewusst sein und die Chance, die uns das Studium bietet, nutzen, um uns charakterlich weiterzuentwickeln. Genau hierfür bietet Die Studentenverbindung den optimalen Raum. So heißt es auch auf der Internetpräsenz unseres Dachverbandes, in dem knapp 100 Verbindungen aus ganz Deutschland vereint sind:
+						</p>
+					</div>
 				</div>
 			  </div>
 			</div>
-
-			<!--<div id="about" class="container about">
-				<div class="row">
-					<h2 class="featurette-heading">WIR...</h2>
-				</div>
-				<div class="row featurette">
-					<div class="col-md-4 col-md-offset-2">
-						<p class="lead">BlaBlaBla
-							<br><br>
-							BlaBlaBla
-							<br><br>
-							BlaBlaBla
-						</p></div>
-					<div class="col-md-4">
-						<p class="lead">To reaffirm our commitment to our founders' values and guide Phi Beta Epsilon into the
-							21st century, in Spring 2012 we introduced an official Phi Beta Epsilon Mission Statement:
-							<br><br>
-							<span class="bold">Mission Statement of Phi Beta Epsilon</span>
-							<br><br>
-							All organized activities of Phi Beta Epsilon, including New Member Education, are conceived in
-							support of our members' character, community, and service.
-							<br><br>
-							Phi Beta Epsilon strives to build its members' character inspired by its traditional credo of the
-							True Gentleman, complementing the technical competence gained from attendance at MIT.
-							<br><br>
-							Phi Beta Epsilon cultivates an intentional community among its members for the dual purposes of
-							providing emotional support during the undergraduate experience and the development of members'
-							interpersonal and organizational skills.
-							<br><br>
-							Phi Beta Epsilon encourages a spirit of service to MIT and the broader society as the natural
-							expression of the character and competence undergraduates gain from their experience at MIT.
-						</p>
-					</div>
-
-				</div>
-			</div>--!><!-- end about container -->
+	<!-- Ende Container -->
 
 			<div id="nme">
 				<div class="row">
@@ -233,5 +292,73 @@
 				</div>
 			</div>
 		</footer>
+		
+		<!-- Root element of PhotoSwipe. Must have class pswp. -->
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+			<!-- Background of PhotoSwipe. 
+				 It's a separate element as animating opacity is faster than rgba(). -->
+			<div class="pswp__bg"></div>
+
+			<!-- Slides wrapper with overflow:hidden. -->
+			<div class="pswp__scroll-wrap">
+
+				<!-- Container that holds slides. 
+					PhotoSwipe keeps only 3 of them in the DOM to save memory.
+					Don't modify these 3 pswp__item elements, data is added later on. -->
+				<div class="pswp__container">
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+				</div>
+
+				<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+				<div class="pswp__ui pswp__ui--hidden">
+
+					<div class="pswp__top-bar">
+
+						<!--  Controls are self-explanatory. Order can be changed. -->
+
+						<div class="pswp__counter"></div>
+
+						<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+						<button class="pswp__button pswp__button--share" title="Share"></button>
+
+						<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+						<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+						<!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+						<!-- element will get class pswp__preloader--active when preloader is running -->
+						<div class="pswp__preloader">
+							<div class="pswp__preloader__icn">
+							  <div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							  </div>
+							</div>
+						</div>
+					</div>
+
+					<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+						<div class="pswp__share-tooltip"></div> 
+					</div>
+
+					<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+					</button>
+
+					<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+					</button>
+
+					<div class="pswp__caption">
+						<div class="pswp__caption__center"></div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
 	</body>
 </html>

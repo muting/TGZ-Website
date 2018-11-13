@@ -715,7 +715,22 @@ img.center {
 .nav-tabs {
 text-align:center;
 }
+
+.profilbild {
+	display: block;
+	max-width: 70%;
+	margin-top: 20px;
+	margin-left: auto;
+    margin-right: auto;
+}
 /* Anzeige der Baupläne*/
+.og {
+	display: block;
+	height: 600px;
+	width: 350px;
+	margin-left: auto;
+    margin-right: auto;
+}
 #og1 {
 	height: 600px;
 	width: 350px;
