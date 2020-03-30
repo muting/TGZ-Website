@@ -48,7 +48,7 @@ body {
 
 .cover {
   text-align: center;
-  color: #FFFFFF;
+  //color: #FFFFFF;
   position: absolute;
   top:50%;
   margin-right: -50%;
@@ -64,7 +64,7 @@ h1 {
   letter-spacing: .025em;
   padding-bottom: 5px;
   margin-top: 5px;
-  text-shadow: 0px 0px 50px #000;
+  //text-shadow: 0px 0px 50px #000;
 }
 
 .cover-nav ul {
@@ -212,7 +212,7 @@ p {
   font-size: 20px;
   padding-top: 50px;
   letter-spacing: 0.025em;
-  text-shadow: 0px 0px 20px #000;
+  //text-shadow: 0px 0px 20px #000;
 }
 
 
@@ -313,8 +313,8 @@ p {
   bottom: 12px;
   top: auto;
   border-radius: 2px;
-  z-index: 25; 
-} 
+  z-index: 25;
+}
 .photosBy a {
   color: #000;
 }
@@ -340,7 +340,7 @@ table {
 }
 
 .table > thead > tr:first-child > td {
-    
+
 }
 
 .table > thead > tr > th,
@@ -394,7 +394,7 @@ p.centered {
 
 p.justified{
   text-align: justify;
-}	
+}
 
 .schedule, #about, #nme {
   border-bottom: solid 1px #10162d;
@@ -406,8 +406,8 @@ video {
     min-height: 100%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);        
-    -webkit-transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     -webkit-transform-style: preserve-3d;
     z-index: 4;
 }
@@ -528,8 +528,8 @@ margin: auto;
   /*float:left;*/
   align: center;
   height: 630px;
-  width:100%; 
-  padding:10px; 
+  width:100%;
+  padding:10px;
   background:#333;
 }
 
@@ -542,11 +542,11 @@ margin: auto;
   height:570px;
   overflow:auto;
   background:black; /*#252525;*/
-  
+
 }
 
 /*.row .Empty {
-  height:50px 
+  height:50px
 }*/
 
 .Written-Bio{
@@ -559,21 +559,21 @@ margin: auto;
 }
 
 h3 .Name .NOmargin{
-  padding: 0px; 
+  padding: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-h3 span { 
-   position: absolute; 
-   top: 55%; 
-   left: 0; 
-   width: 100%; 
-   color: white; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
+h3 span {
+   position: absolute;
+   top: 55%;
+   left: 0;
+   width: 100%;
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
-   padding: 0px 0px 0px 15px; 
+   padding: 0px 0px 0px 15px;
   margin: 0px;
 }
 
@@ -632,8 +632,8 @@ padding-right: 2ex;
   right: 0px;
   top:0px;
   padding: 1ex;
- 
-  background-color: white;  
+
+  background-color: white;
 }
 
 .pannel{
@@ -679,7 +679,7 @@ padding-right: 2ex;
 }
 
 .application {
-  
+
   text-align: center;
 }
 
