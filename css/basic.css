@@ -163,6 +163,16 @@ ul.pull-right {
   margin-top: -5px;
 }
 
+#front {
+  width: inherit;
+  margin-top: -30%;
+}
+
+#imagecontent {
+  max-width: 100vh; 
+  margin-top: 20px;
+}
+
 @media (max-width: 1200px) {
   .nav-wappen {
     display: none;
@@ -251,6 +261,9 @@ p {
 .container {
   width: 100%;
 }
+.container.schedule {
+  margin-top: 180px;
+}
 
 #coverSlide .rsOverflow {
   width: 100% !important;
@@ -284,7 +297,7 @@ p {
   margin-right: auto;
   padding-bottom: 0;
   overflow: hidden;
-  padding: 20px;
+  padding: 70px 20px;
 background: rgb(0,0,0);
 background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.70) 15%, rgba(0,0,0,0.70) 90%, rgba(0,0,0,0) 100%);
 }
@@ -441,6 +454,28 @@ footer {
   text-transform: uppercase;
 }
 
+@media (max-width: 1024px) {
+  video {
+    display: none;
+  }
+
+  .bg img {
+    visibility: visible;
+  }
+  
+  .cover-nav li{
+    padding: 0px 40px;
+  }
+
+  .navbar {
+    min-height: 0px;
+  }
+    
+  .container.schedule {
+    margin-top: 100px;
+  }
+}
+
 @media (max-width: 768px) {
   .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -454,32 +489,41 @@ footer {
     padding: 20px 20px !important;
   }
 
-
   #coverSlide {
-    height: 1136px;
+    height: 1063px;
   }
 
   #rushSlide {
-    height: 1136px;
+    height: 1063px;
+  }
+
+  .cover-nav li {
+    padding: 20px 15px;
+    display: inline-block;
+  }
+
+  .schedule h2 {
+    margin-top: 0;
+  }
+
+  .profilbild {
+    max-width: 100%;
+    margin:0px;
+  }
+
+  .container.schedule {
+    margin-top: 80px;
+  }
+
+  #front {
+    margin-top: 0px;
   }
 }
-
-@media (max-width: 1024px) {
-  video {
-    display: none;
-  }
-
-  .bg img {
-    visibility: visible;
-  }
-}
-
 
 @media (max-width: 480px) {
   table {
     font-size: 12px;
   }
-
 
   #coverSlide {
     height: 520px;
@@ -505,30 +549,38 @@ footer {
     font-size: 10px;
   }
 
-  .cover-nav li {
-  padding: 40px 10px;
-  display: inline-block;
-  }
-
   .cover {
     top: 275px;
-margin: auto;
+  margin: auto;
+  }
+
+  .work {
+    top: 450px;
+    margin: auto;
+  }
+
+  .cover-nav ul {
+    font-size: 15px;
+  }
+
+  .cover-nav li {
+    padding: 20px 5px;
+    display: inline-block;
+  }
+
+  #imagecontent {
+    max-width: 300px;
+  }
 }
 
-.work {
-  top: 450px;
-margin: auto;
-}
-}
 
 
 
-
-/*Bios
+/*Bios*/
 .FixedHeightContainer
 {
   /*float:left;*/
-  align: center;
+  text-align: center;
   height: 630px;
   width:100%;
   padding:10px;
@@ -601,7 +653,6 @@ color: #D0CECE;
 position: absolute;
 width: 100%;
 
-
 z-index: 500;
 bottom: 0;
 right: 0px;
@@ -624,8 +675,6 @@ padding-right: 2ex;
   padding-right: 3ex;
   padding-left: 8ex;
 }
-
-
 
 .close {
   position: absolute;
@@ -716,14 +765,6 @@ img.center {
 
 .nav-tabs {
 text-align:center;
-}
-
-.profilbild {
-	display: block;
-	max-width: 70%;
-	margin-top: 20px;
-	margin-left: auto;
-    margin-right: auto;
 }
 /* Anzeige der Baupläne*/
 .og {

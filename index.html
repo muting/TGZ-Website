@@ -55,12 +55,12 @@
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
-						</button>
+						</button>-->
 						<div><a class="navbar-brand" href="index.html">T! GOTIA-ZARINGIA</a></div>
 					</div>
 
@@ -87,7 +87,7 @@
 			<!--<video autoplay="" muted="" loop="" id="bgvid">
 				<source src="media/video/cover.mp4" type="video/mp4">
 			</video>-->
-			<img class="rsImg bg" src="media/img/hausfront_desaturated.jpg" alt="" style="width: 100%;">
+			<img class="rsImg bg" id="front" src="media/img/hausfront_desaturated.jpg" alt="">
 			<div class="infoBlock rsABlock cover" data-fade-effect="true" data-move-offset="10" data-move-effect="bottom" data-speed="100">
 				<div class="row">
 					<div class="col-md-12" style="color: white;">
@@ -107,9 +107,9 @@
 			</div>
 		</div>
 		<!-- Details -->
-		<div class="container schedule">
+		<div class="container schedule" style="margin-top: 0px;">
 
-			<div class="container schedule">
+			<div class="container">
 				<div class="row cover-nav">
 					<ul>
 						<li><a href="geschichte.html">GESCHICHTE</a></li>
@@ -119,7 +119,7 @@
 				</div>
 			</div>
 			<div class="container">
-			  <h2>Wir</h2>
+			  <h2>Über uns</h2>
 
 			  <ul class="nav nav-tabs" style="text-align: center">
 				<li class="active"><a data-toggle="tab" href="#W1">Wer wer sind</a></li>
@@ -142,21 +142,22 @@
 				  </p>
 				</div>
 				<div id="W2" class="tab-pane fade">
-				  <h3>Was wir bieten dir...</h3>
+				  <h3>Was wir dir bieten...</h3>
 				  <p class="lead">
 				<ol>
-					<li style="font-weight: bold;">die Möglichkeit, in unserem <a href="http://www.studentenzimmer-in-karlsruhe.de/">Wohnheim</a> zu wohnen:</li>
-						<ul>
+					<li style="font-weight: bold;">die Möglichkeit, in unserem Wohnheim zu wohnen:
+						<ul style="font-weight: normal;">
 							<li>kostengünstig, inkl. aller Nebenkosten</li>
 							<li>voll ausgestattetes Zimmer (möbliert, Internetanschluss)</li>
 							<li>zentral bzw. uninah gelegen</li>
 							<li>mit schönen Gemeinschaftsräumen<br>(Küche, Esszimmer, Fernsehzimmer, Barbereich, Veranstaltungsraum, Lernraum, etc.)</li>
 						</ul>
 						<br>
+					</li>
 					<li style="font-weight: bold;">Erfahrung und Wissen der älteren Kommilitonen und Alten Herren</li>
 						<br>
-					<li style="font-weight: bold;">lebenslangen Zugang zu einem Netzwerk von über 85 Akademikern:</li>
-						<ul>
+					<li style="font-weight: bold;">lebenslangen Zugang zu einem Netzwerk von über 85 Akademikern:
+						<ul style="font-weight: normal;">
 							<li>fortlaufende Studienunterstützung und -beratung</li>
 							<li>Vermittlung von Praktika im In- und Ausland</li>
 							<li>Tipps und Unterstützung bei Berufseinstieg, Bewerbung und Berufswahl</li>
@@ -165,8 +166,9 @@
 							<li>Kontakte zu Mitgliedern aller Fachrichtungen zu knüpfen</li>
 						</ul>
 						<br>
-					<li style="font-weight: bold;">Entwicklung und Verbesserung Deiner soft skills (soziale Kompetenzen), die an der Uni nicht bzw. nur unzureichend vermittelt werden:</li>
-						<ul>
+					</li>
+					<li style="font-weight: bold;">Entwicklung und Verbesserung Deiner soft skills (soziale Kompetenzen), die an der Uni nicht bzw. nur unzureichend vermittelt werden:
+						<ul style="font-weight: normal;">
 							<li>Verantwortung übernehmen</li>
 							<li>Diskussionsleitung</li>
 							<li>Gestaltung von Meinungsbildungsprozessen</li>
@@ -177,29 +179,33 @@
 							<li>Verbesserung Deiner Arbeitszeit- und Selbstorganisation, bzw. Deines Zeitmanagements</li>
 						</ul>
 						<br>
+					</li>
 					<li style="font-weight: bold;">Generationenübergreifender Austausch, wie er in dieser Form heute nur noch selten stattfindet</li>
 						<br>
-					<li style="font-weight: bold;">Förderung von sportlichen Interessen</li>
-						<ul>
-						<li>Gemeinsame Sportveranstaltungen</li>
-						<li>Regelmäßigen Unterricht bei unserem Fechtmeister</li>
+					<li style="font-weight: bold;">Förderung von sportlichen Interessen:
+						<ul style="font-weight: normal;">
+							<li>Gemeinsame Sportveranstaltungen</li>
+							<li>Regelmäßigen Unterricht bei unserem Fechtmeister</li>
 						</ul>
 						<br>
-					<li style="font-weight: bold;">Veranstaltungen, die Dich weiterbringen:</li>
-						<ul>
-						<li>Vorträge zu aktuellen Themen aus Wirtschaft, Politik und Gesellschaft</li>
-						<li>Seminare und Workshops, die Deine soft skills verbessern (z.B. Rhetorik- und Persönlichkeitstrainings)</li>
+					</li>
+					<li style="font-weight: bold;">Veranstaltungen, die Dich weiterbringen:
+						<ul style="font-weight: normal;">
+							<li>Vorträge zu aktuellen Themen aus Wirtschaft, Politik und Gesellschaft</li>
+							<li>Seminare und Workshops, die Deine soft skills verbessern (z.B. Rhetorik- und Persönlichkeitstrainings)</li>
 						</ul>
 						<br>
-					<li style="font-weight: bold;">durch unseren Dachverband, den Coburger Convent:</li>
-						<ul>
-						<li style="font-weight: bold;">Zugang zu einem weltweiten Netzwerk von ca. 11.500 Akademikern</li>
-							<ul>
-							<li>Möglichkeit, bei Job- und/oder Uniwechsel schnell in einer neuen Stadt Fuß zu fassen bzw. neue Kontakte zu knüpfen</li>
-							<li>Möglichkeit, bei Job- und/oder Uniwechsel schnell und unkompliziert vor Ort (vorübergehend) eine Bleibe zu finden</li>
-							</ul>
-						<li>Interessante Gespräche und viel Spaß durch den Austausch mit anderen Verbindungen in Karlsruhe und ganz Deutschland</li>
+					</li>
+					<li style="font-weight: bold;">durch unseren Dachverband, den Coburger Convent:
+						<ul style="font-weight: normal;">
+							<li style="font-weight: bold;">Zugang zu einem weltweiten Netzwerk von ca. 11.500 Akademikern</li>
+								<ul>
+									<li>Möglichkeit, bei Job- und/oder Uniwechsel schnell in einer neuen Stadt Fuß zu fassen bzw. neue Kontakte zu knüpfen</li>
+									<li>Möglichkeit, bei Job- und/oder Uniwechsel schnell und unkompliziert vor Ort (vorübergehend) eine Bleibe zu finden</li>
+								</ul>
+							<li>Interessante Gespräche und viel Spaß durch den Austausch mit anderen Verbindungen in Karlsruhe und ganz Deutschland</li>
 						</ul>
+					</li>
 				</ol>
 				Wenn wir Dein Interesse geweckt haben, kannst Du gerne unverbindlich Kontakt zu uns aufnehmen.
 				</p>
@@ -215,6 +221,8 @@
 							Von jeher verstehen sich die Studentenverbindungen als starke Gemeinschaften hochanständiger und motivierter junger Menschen - von einigen schwarzen Schafen abgesehen. Ein jedes unserer Mitglieder sollte gewillt sein, in sich die Eigenschaften Ehrlichkeit, Worttreue, Bescheidenheit, Arbeitsamkeit und Güte zu suchen. Als angehende Akademiker tragen wir zukünftig Verantwortung in unseren Unternehmen und für die Menschen in unserer Umgebung. Nur wenn wir lernen, nach bestem Wissen und Gewissen Entscheidungen zu treffen und unsere Überzeugungen unter Opferbereitschaft zu vertreten, können wir einen Beitrag für eine friedliche Gesellschaft leisten.
 							<br><br>
 							Gleichzeitig versteht sich keines unserer Mitglieder als „moralisch vollkommen“. Vielmehr leben wir im täglichen Spannungsfeld zwischen persönlichem Interesse, Verantwortungsbewusstsein gegenüber der Gesellschaft, der Vorsorge für die Zukunft und den Bedürfnissen unserer Nächsten. Wir wollen uns dessen stets bewusst sein und die Chance, die uns das Studium bietet, nutzen, um uns charakterlich weiterzuentwickeln. Genau hierfür bietet Die Studentenverbindung den optimalen Raum. So heißt es auch auf der Internetpräsenz unseres Dachverbandes, in dem knapp 100 Verbindungen aus ganz Deutschland vereint sind:
+							<br><br>
+							<q><i>Der ist frei, der in eigener Arbeit sich in bewusster Selbsterziehung zu einem innerlich freien Menschen formt. Auf dem so bereiteten Boden können die Tugenden – Selbstbeherrschung, Gemeinschaftsbewusstsein und Einsatzbereitschaft – wurzeln. Sie spornen an, aus freiem Willen Selbstsucht und Eigennutz zu überwinden, Menschlichkeit und Hilfsbereitschaft zu entwickeln. Der besondere sittliche Wert der Tugenden beruht darin, dass sie nicht von Natur aus vorhandene Eigenschaften haben, sondern dass diese Eigenschaften in ausdrücklicher Anstrengung erworben werden müssen.</i></q>
 						</p>
 					</div>
 				</div>
@@ -242,7 +250,7 @@
 				</div>
 			</div>
 
-			<div id="nme">
+			<div>
 				<div class="row">
 					<h2 class="featurette-heading">Anfahrt</h2>
 				</div>
@@ -279,7 +287,7 @@
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3">
 						<p class="lead">
-							Turnerschaft Gotia-Zaringia, Durlacher Allee 13, 76131 Karlsruhe
+							Turnerschaft Gotia-Zaringia, <br>Durlacher Allee 13, 76131 Karlsruhe
 						</p>
 						<p class="lead">
 							<style>
