@@ -255,32 +255,7 @@
 					<h2 class="featurette-heading">Anfahrt</h2>
 				</div>
 				<div class="row featurette">
-					<div>
-						<!--p class="lead"> text...
-						<br><br>
-
-						</p-->
-						<div id="map"></div>
-						<script>
-						  function initMap() {
-							var tgz = {lat: 49.0083729, lng: 8.4214519};
-							var map = new google.maps.Map(document.getElementById('map'), {
-							  zoom: 15,
-							  center: tgz
-							});
-							var marker = new google.maps.Marker({
-							  position: tgz,
-							  map: map
-							});
-						  	var contentString = '<b>Turnerschaft Gotia-Zaringia im CC</b><br>Durlacher Allee 13<br>76131 Karlsruhe<br>Deutschland<br><a href="https://goo.gl/maps/wT2jZ4vcmNTJS6SEA">In Google Maps ansehen</a>';
-
-							var infowindow = new google.maps.InfoWindow({content: contentString});
-							google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);
-						  }
-						</script>
-						<script async defer
-						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkQUoTr7ZsR0cyXZXwGJca57-7G83asmk&callback=initMap">
-						</script>
+					<iframe id="map" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJXVDWFDAGl0cRRi2VCtkg8jo&key=AIzaSyBGiq_TBIY-CTW1rQz2q_30etx8oaRM9fc" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
