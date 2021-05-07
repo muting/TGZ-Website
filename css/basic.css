@@ -1,3 +1,16 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('fonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/roboto-v20-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
 @font-face {
   font-family: Neusa;
   src: url(fonts/Neusa-Light.otf);
@@ -43,7 +56,7 @@
 
 body {
   font-size: 16px;
-  background-color: #000414;
+  background-color: #181c2f;
 
 }
 
@@ -59,7 +72,7 @@ body {
 }
 
 h1 {
-  font-family: Neusa;
+  font-family: Roboto;
   font-weight: 600;
   font-size: 55px;
   letter-spacing: .025em;
@@ -69,7 +82,7 @@ h1 {
 }
 
 .cover-nav ul {
-  font-family: Neusa;
+  font-family: Roboto;
   font-weight: 500;
   font-size: 25px;
   list-style-type: none;
@@ -117,7 +130,7 @@ nav {
 }
 
 .nav > li > a {
-  font-family: Neusa;
+  font-family: Roboto;
   font-weight: 500;
   font-size: 20px;
   padding-top: 12px;
@@ -162,15 +175,22 @@ ul.pull-right {
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   margin-top: -5px;
+  filter: drop-shadow(0px 0px 10px #000000);
 }
 
 #front {
   width: inherit;
-  margin-top: -30%;
+  margin-top: -40%;
+}
+.vignette-radial:after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: radial-gradient(circle, transparent 50%, black 125%);
 }
 
 #imagecontent {
-  max-width: 100vh; 
+  max-width: 100%; 
   margin-top: 20px;
 }
 
@@ -185,7 +205,7 @@ ul.pull-right {
 }
 
 .navbar-default .navbar-brand {
-  font-family: Neusa;
+  font-family: Roboto;
   font-weight: 600;
   font-size: 30px;
   color: #FFFFFF;
@@ -210,7 +230,7 @@ ul.pull-right {
 }
 
 .cover h2 {
-  font-family: Neusa;
+  font-family: Roboto;
   font-weight: 200;
   font-size: 20px;
   margin-bottom: 5px;
@@ -218,7 +238,7 @@ ul.pull-right {
 }
 
 p {
-  font-family: HelveticaLT, sans-serif;
+  font-family: Roboto;
   font-weight: 200;
   font-size: 20px;
   padding-top: 50px;
@@ -300,7 +320,7 @@ p {
   overflow: hidden;
   padding: 70px 20px;
 background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.70) 15%, rgba(0,0,0,0.70) 90%, rgba(0,0,0,0) 100%);
+background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.50) 15%, rgba(0,0,0,0.50) 85%, rgba(0,0,0,0) 100%);
 }
 .infoBlockLeftBlack {
   left: auto;
@@ -336,8 +356,8 @@ background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.70) 15%, rgba
 }
 
 table {
-  color: #a7aab5;
-  font-family: HelveticaLT;
+  color: #efefef;
+  font-family: Roboto;
   font-weight: 200;
 }
 
@@ -385,9 +405,9 @@ table {
 }
 
 .schedule h2 {
-  font-family: Neusa;
+  font-family: Roboto;
   font-weight: 600;
-  color: #f2f2f2;
+  color: #efefef;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 30px;
@@ -397,7 +417,7 @@ table {
 p.lead {
   font-size: 100%;
   text-shadow: none !important;
-  color: #a7aab5;
+  color: #efefef;
   padding: 0;
   padding-top: 10px;
   margin: 0;
@@ -413,7 +433,7 @@ p.justified{
 }
 
 .schedule, #about, #nme {
-  border-bottom: solid 1px #10162d;
+  border-bottom: solid 1px #efefef;
 }
 
 video {
@@ -443,14 +463,14 @@ video {
 
 
 span.bold {
-  font-family: Helvetica;
+  font-family: Roboto;
   font-weight: 600;
 }
 
 footer {
   padding: 15px;
   text-align: center;
-  background: #000414;
+  background: #181c2f;
   color: #10162d;
   text-transform: uppercase;
 }
@@ -624,7 +644,7 @@ h3 span {
    left: 0;
    width: 100%;
    color: white;
-   font: bold 24px/45px Helvetica, Sans-Serif;
+   font: bold 24px/45px Roboto;
    letter-spacing: -1px;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
@@ -761,7 +781,7 @@ img.center {
 
 .tab-content>.active {
  display:block;
- color: #a7aab5;
+ color: #efefef;
 }
 
 .nav-tabs {
